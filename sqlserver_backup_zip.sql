@@ -13,7 +13,7 @@ GO
 DECLARE	@dbname NVARCHAR(1024)
 SET	@dbname = 'EXAMPLE'
 
--- Set the name of the backup directory.
+-- Set the name of the archive backup directory.
 DECLARE	@bakdir VARCHAR(300)
 SET	@bakdir = 'C:\Backup\'
 
